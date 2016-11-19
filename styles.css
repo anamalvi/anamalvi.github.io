@@ -68,3 +68,18 @@ p {
     display: table;
     clear: both;
 }
+
+#about {
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-bottom: 50px;
+}
+
+#future {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 275px;
+	height: auto;
+	border: 3px solid #5c5c3d;
+	box-shadow: 2px 2px 2px #888888;
+}
