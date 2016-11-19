@@ -68,3 +68,9 @@ p {
     display: table;
     clear: both;
 }
+
+#about {
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-bottom: 50px;
+}
