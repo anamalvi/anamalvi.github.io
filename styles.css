@@ -15,6 +15,7 @@ p {
 .work-img {
 	width: 70px;
 	height: 70px;
+	border-radius: 50%;
 }
 .info-link {
 	margin: 10px;
