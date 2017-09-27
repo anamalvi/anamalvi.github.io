@@ -1,86 +1,32 @@
+body, head {
+	font-family: 'Andada';font-size: 22px;
+}
+
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	text-align: center;
-}
-a { 
-	color: inherit;
-}
-p {
-	line-height: 1;
-	margin: auto;
-}
-.work-img {
-	width: 70px;
-	height: 70px;
-	border-radius: 50%;
-}
-.info-link {
-	margin: 10px;
-}
-.work, .tag {
-	display: inline-block;
-	vertical-align: top;
-	text-align: left;
-}
-.tag {
-	padding: 3px;
-	background-color: white;
-	border-radius: 3px;
-	font-size: 12px;
-	font-style: italic;
-	margin-top:5px;
-	margin-right: 3px;
-}
-.position-title {
-	font-weight: bold;
-}
-.position-description {
-	margin-top: 8px;
-}
-.position-date {
-	font-size: 13px;
-	color: #3e3e28;
-}
-.work-exp {
-	vertical-align: middle;
-	margin-bottom: 20px;
-	margin-left: 35px;
-	margin-right: 35px;
-	text-align: left;
-}
-.work-desc {
-	margin-left: 5px;
-	text-align: left;
-	width: 395px;
-}
-#container {
-	width: 550px;
-	min-height: 40%;
-	height: wrap-content;
-	background-color: #fff2cc;
-	margin: auto;
-}
-/* make container wrap floating elements */
-#container::after {
-    content: "";
-    display: table;
-    clear: both;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
-#about {
-	margin-left: 35px;
-	margin-right: 35px;
-	margin-bottom: 50px;
+.header-menu-item {
+	width: 100px;
+	float: left;
+	font-size: 18px;
 }
 
-#future {
+#header-menu {
+	float: right;
+	margin-right: 30px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	width: 275px;
-	height: auto;
-	border: 3px solid #5c5c3d;
-	box-shadow: 2px 2px 2px #888888;
+}
+
+#title {
+	font-size: 50px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+#title-description {
+	font-size: 20px;
+	margin-bottom: 20px;
 }
