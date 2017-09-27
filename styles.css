@@ -1,32 +1,54 @@
 body, head {
-	font-family: 'Andada';font-size: 22px;
+	font-family: 'Andada';font-size: 20px;
 }
 
 body {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 .header-menu-item {
 	width: 100px;
 	float: left;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 #header-menu {
 	float: right;
 	margin-right: 30px;
 	margin-top: 20px;
-	margin-bottom: 20px;
+
 }
 
 #title {
-	font-size: 50px;
-    width: 100%;
-    margin-top: 150px;
+	font-size: 35px;
+    letter-spacing: 1px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:15px;
+    margin-left: 15px;
+}
+
+#description {
+	padding-left: 115px;
+	margin-top:-10px;
 }
 
 #title-description {
 	font-size: 20px;
 	margin-bottom: 20px;
+}
+
+#headshot-img {
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
+}
+
+.content-container {
+	margin-top: 150px;
+}
+
+#img-container {
+	display: inline-block;
 }
